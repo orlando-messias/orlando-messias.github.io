@@ -17,6 +17,7 @@
     width: 80vw;
     min-height: 100vh;
     background-color:white;
+    border-top:rgb(177, 194, 206) solid 10px;
     /* position: relative;
     float: left; */
 }
@@ -27,7 +28,7 @@
     position: absolute;
     top: 50px;
     left: 70vw;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #top{
@@ -42,15 +43,16 @@
     font-size: 16px;
     display: inline;
     padding: 10px 30px;
+    font-weight: bold;
 }
 
 #top li a{
-    color: black;
+    color:rgb(107, 107, 156);
     text-decoration: none;
 }
 
 #top li:hover{
-    border-bottom:moccasin solid;
+    border-bottom:rgb(143, 148, 229) solid;
     color: blue;
 }
 
@@ -70,7 +72,11 @@
     width: 70%;
     /* background-color: blueviolet; */
     margin: auto;
-   
+}
+
+#head .fullname{
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 #profile-picture{
@@ -82,6 +88,7 @@
 #profile-picture img{
     border-radius: 50px;
     border: solid black 1px;
+    opacity: 0.8;
 }
 
 #head-info{
@@ -100,20 +107,26 @@
     font-weight: bold;
     font-size: 20px;
     position: relative;
-    top: -5px;
+    top: -15px;
 }
 
 #clear{
     clear: both;
 }
 
+.header3{
+    padding-bottom: 5px;
+}
+
 #skills{
-    width: 80%;
+    width: 85%;
     height: 150px;
     background-color: rgb(214, 221, 226);
     margin-top: 40px;
     margin-left: 10px;
     border-radius: 30px;
+    /* border: solid 3px rgb(193, 199, 204); */
+    box-shadow: rgb(182, 181, 181) 5px 5px;
 }
 
 #skills #skills1-img{
@@ -123,7 +136,7 @@
 #skills #skills1-p{
     position: relative;
     top: -100px;
-    width: 80%;
+    width: 100%;
     text-align: justify;
     left: 100px;
     font-size: 18px;
@@ -134,17 +147,22 @@
 }
 
 #skills2{
-    width: 70%;
+    width: 80%;
     height: 130px;
     background-color: rgb(205, 245, 205);
     margin-top: 15px;
     margin-left: 50px;
     border-radius: 30px;
+    box-shadow: rgb(184, 207, 184) 5px 5px;
 }
 
 #skills2 #skills2-img{
     padding-top: 30px;
     padding-left: 10px;
+}
+
+#skills2 #skills2-img img{
+    border-radius: 40px;    
 }
 
 #skills2 #skills2-p{
@@ -167,10 +185,11 @@
     margin-top: 15px;
     margin-left: 10px;
     border-radius: 30px;
+    box-shadow: rgb(182, 181, 181) 5px 5px;
 }
 
 #skills3 #skills3-img{
-    padding: 10px;
+    padding: 15px;
 }
 
 #skills3 #skills3-p{
@@ -193,6 +212,7 @@
     margin-top: 15px;
     margin-left: 50px;
     border-radius: 30px;
+    box-shadow: rgb(184, 207, 184) 5px 5px;
 }
 
 #skills4 #skills4-img{
@@ -219,6 +239,7 @@
     margin-top: 15px;
     margin-left: 10px;
     border-radius: 30px;
+    box-shadow: rgb(182, 181, 181) 5px 5px;
 }
 
 #skills5 #skills5-img{
@@ -228,7 +249,7 @@
 #skills5 #skills5-p{
     position: relative;
     top: -100px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     left: 130px;
     font-size: 18px;
@@ -245,6 +266,7 @@
     margin-top: 15px;
     margin-left: 50px;
     border-radius: 30px;
+    box-shadow: rgb(184, 207, 184) 5px 5px;
 }
 
 #skills6 #skills6-img{
@@ -253,7 +275,7 @@
 
 #skills6 #skills6-p{
     position: relative;
-    top: -90px;
+    top: -92px;
     width: 80%;
     text-align: justify;
     left: 130px;
@@ -264,23 +286,66 @@
     padding-top: 0px;
 }
 
-#footer{
-    width: 99%;
-    height: 13vh;
+#preferences{
+    width: 100%;
+    margin-top: 30px;   
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: justify;
+    font-size: 18px;
+    z-index: 2;
     background-color: rgb(239, 241, 243);
-    margin-top: 20px;  
-    border-top: groove 5px rgb(193, 222, 252);
+    border-top: solid 10px rgb(177, 194, 206);
+    border-bottom: solid 10px rgb(177, 194, 206);
 }
 
-#footer .footbar{
-    width: 95%;
-    height: 10px;
-    /* background-color: rgb(149, 177, 197); */
-    margin: auto;
+#preferences .mouse{
+    position: relative;
+    left: 10px;
+    top: 15px;
 }
+
+#preferences h2, p{
+    margin-left: 50px;
+    width: 80%;
+}
+
+#bgconnection{
+    opacity: 0.7;
+    width: 440px;
+    /* height: 230px; */
+    margin: auto;
+    position: relative;
+    top: -30px;
+    z-index: 1;
+}
+
+#preferences ul{
+    list-style: none;
+}
+
+#preferences ul li{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#preferences ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(239, 241, 243);
+    /* margin-top: 10px;   */
+    border-bottom: solid 10px rgb(177, 194, 206);
+}
+
 
 #footer ul{
-    margin-top: 10px;
+    padding-top: 10px;
     display: block;
     text-align: center;
 }
@@ -291,5 +356,5 @@
 } 
 #footer ul li span{
     position: relative;
-    top: -10px;
+    top: -5px;
 }
