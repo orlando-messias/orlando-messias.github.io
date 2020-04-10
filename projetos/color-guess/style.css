@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(228, 217, 238);
+  background-color: rgb(217, 221, 238);
   margin: 0px;
   padding: 0px;
 }
@@ -12,8 +12,8 @@ body {
 }
 
 .main {
-  background-color: rgb(213, 198, 226);
-  border: 2px solid rgb(198, 177, 216);
+  background-color: rgb(198, 210, 226);
+  border: 2px solid rgb(177, 179, 216);
   height: 580px;
   margin: auto;
   margin-top: 20px;
@@ -32,8 +32,8 @@ h1 {
 }
 
 .header {
-  background-color: rgb(228, 217, 238);
-  border: solid 5px rgb(238, 228, 247);
+  background-color: rgb(217, 221, 238);
+  border: solid 5px rgb(228, 229, 247);
   height: 60px;
   margin: auto;
   margin-bottom: 5px;
@@ -45,8 +45,8 @@ h1 {
 }
 
 .rgb-color {
-  background-color: rgb(228, 217, 238);
-  border: solid 5px rgb(238, 228, 247);
+  background-color: rgb(217, 221, 238);
+  border: solid 5px rgb(228, 229, 247);
   color: black;
   font-size: 30px;
   font-weight: 900;
@@ -59,8 +59,8 @@ h1 {
 }
 
 .balls {
-  background-color: rgb(228, 217, 238);
-  border: solid 5px rgb(238, 228, 247);
+  background-color: rgb(217, 221, 238);
+  border: solid 5px rgb(228, 229, 247);
   padding: 10px;
   text-align: center;
 }
@@ -100,8 +100,8 @@ h1 {
 }
 
 .footer {
-  background-color: rgb(228, 217, 238);
-  border: solid 5px rgb(238, 228, 247);
+  background-color: rgb(217, 221, 238);
+  border: solid 5px rgb(228, 229, 247);
   height: 40px;
   margin: auto;
   margin-bottom: 5px;
@@ -113,7 +113,7 @@ h1 {
 
 .btn-reset {
   background-color: white;
-  border: 2px solid rgb(198, 177, 216);
+  border: 1px solid rgb(102, 95, 167);
   cursor: pointer;
   font-weight: 900;
   height: 30px;
